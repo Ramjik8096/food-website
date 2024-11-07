@@ -1,16 +1,17 @@
 
 .form_area_div{
-    /* width: 100%; */
+     /* width: 100%;  */
     background-color: rgba(255, 251, 251, 0.977);
     display: flex;
+    height: 97vh;
     justify-content: center;
     align-items: center;
-    padding: 7em;
+    /* padding: 7em; */
 }
 .form_area{
     width: 300px;
-    padding: 20px;
-    height: 90%;
+    padding:20px;
+    height: 50%;
     background-color: #f3eeee;
     border: 1px solid rgb(239, 237, 237);
      display: flex;
@@ -32,7 +33,7 @@
 }
 
 .form_area>.inp_button{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 400;
     color: rgb(245, 242, 242);
     background-color: #475085;
@@ -53,3 +54,13 @@
     color: rgb(3, 0, 0);
 
 }
+
+@media (min-width: 300px) and (max-width: 800px) {
+
+     .form_area_div{
+        width: 100%;
+    }
+    .form_area{
+        width: 70%;
+    } 
+  }
