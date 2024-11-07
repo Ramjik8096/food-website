@@ -14,14 +14,12 @@
     box-sizing: border-box;
     align-items: center;
     flex-wrap: wrap;
-    /* padding: 20px 40px; */
 }
 
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
     color: red;
-    /* margin-top: 6px; */
     margin-left: 5.5rem;
     cursor: pointer;
 }
@@ -65,12 +63,15 @@
 }
 .box{
     position:absolute;
-    padding: 20px;
+    padding: 17px;
     border-radius: 5px;
     background-color: rgba(0,0,0,.3);
     /* position: fixed; */
     top: 13em;
     left: 2em;
+}
+.box>p{
+    font-size: .8rem;
 }
 .box button{
     background-color:red;
@@ -151,6 +152,7 @@
 }
 .contentText>p{
 font-weight: 900;
+margin-right: 15px;
 }
 .contentText>div{
     border-radius: 20px;
@@ -209,4 +211,5 @@ font-weight: 900;
 }
 .btnbox>h4{
     color: brown;
+    padding-right: 15px;
 }
